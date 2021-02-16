@@ -31,9 +31,13 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -127,5 +131,8 @@
       }
     }
   },
-  "defaultProject": "korosi-exam"
+  "defaultProject": "korosi-exam",
+  "cli": {
+    "analytics": "f00b76e5-0d35-43f1-ac58-65e9546b54da"
+  }
 }

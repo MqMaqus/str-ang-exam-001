@@ -1,0 +1,17 @@
+<div class="container herodisplay">
+  <h3 class="text-center mt-5 mb-5">Here are your heroes!</h3>
+
+  <table class="table table-hover table-dark">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">Superpower</th>
+        <th scope="col">Address</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let hero of heroList">
+      <app-hero-table-row>[hero]="hero"</app-hero-table-row>
+    </tbody>
+  </table>
+</div>
